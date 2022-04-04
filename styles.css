@@ -96,8 +96,19 @@ a:hover {
 	opacity: 1;
 }
 
+#ui_example {
+	margin: auto;
+	max-width: 50%;
+	max-height: 75%;
+	flex-basis: 150%;
+}
+
 #first_screen {
 	background: var(--text);
 }
 #second_screen {
 	background: var(--text2);
+}
+#third_screen {
+	font-size: 40px;
+}
